@@ -3,6 +3,9 @@ import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import Link from "next/link";
 import AboutSection from "./components/AboutSection";
+import AchievementsSection from "./components/AchievementsSection";
+import ProjectsSection from "./components/ProjectsSection";
+import EmailSection from "./components/EmailSection";
 
 export default function Home() {
   return (
@@ -10,7 +13,10 @@ export default function Home() {
       <Navbar />
       <div className="container mt-24 mx-auto">
         <HeroSection />
+        <AchievementsSection />
         <AboutSection />
+        <ProjectsSection />
+        <EmailSection />
       </div>
     </main>
   );
